@@ -12,7 +12,7 @@
 
 - (void)pluginInitialize
 {
-    NSString * hockeyAppKey = @"__HOCKEY_APP_KEY__";
+    NSString * hockeyAppKey = @"ee2e2bc4d443909a2d510ec3b72c85de";
     if( hockeyAppKey!=nil && [hockeyAppKey isEqualToString:@""]==NO && [hockeyAppKey rangeOfString:@"HOCKEY_APP_KEY"].location == NSNotFound ){
         
         [[BITHockeyManager sharedHockeyManager] configureWithBetaIdentifier:hockeyAppKey
